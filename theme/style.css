@@ -9,38 +9,45 @@ header {
     width: 100%;
     height: 40px;
     border-style: inset;
-}
-
-img{
-    height: 50px;
-    width: fit-content;
-    padding-left: 10px;
+    position: static;
+    content: initial;
 }
 
 nav {
-    float: right;
-    border-style: ridge;
-    text-align: center;
-    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #6e6b7e;
+    justify-content: space-between;
+    overflow:inherit;
+}
+
+img#nav-logo{
+    position: relative;
+    content: url("../content/logos/logo-1.png");
+    width: 5rem;
+    height: 5rem;    
+}
+
+ul#nav li {
+    position: relative;
+    margin: 0 20px;
+    list-style: none;
+    display: inline-block;
+    padding: 14px;
     font-size: 17px;
 }
-div#nav-logo {
-    float: left;
+
+.article {
+    margin-block: inherit;
+    background-color: aquamarine;
 }
 
-nav#main-nav a {
-    border-style: outset;
-    background-color: rgb(190, 171, 226);
-}
-
-ul#menu {
-    border-style: double;
-    border-color: brown;
-}
-
-tr {
-    border-style: dotted;
-}
+ul li a{
+    text-decoration: none; 
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    }
 
 a {
     color: rgb(68, 68, 68);
