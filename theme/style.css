@@ -1,15 +1,51 @@
-body{
-    background-color: antiquewhite;
+
+main {
+    margin: 10%;
+    background-color: azure;
+    border-style: dashed;
 }
 
-div.main{
-    padding: 10%;
-    align-content: center;
-    color: blue;
+header {
+    width: 100%;
+    height: 40px;
+    border-style: inset;
 }
 
-nav{
-    box-shadow: 10px;
-    align-content: center;
-    margin: 20px;
+img{
+    height: 50px;
+    width: fit-content;
+    padding-left: 10px;
+}
+
+nav {
+    float: right;
+    border-style: ridge;
+    text-align: center;
+    padding: 5px;
+    font-size: 17px;
+}
+div#nav-logo {
+    float: left;
+}
+
+nav#main-nav a {
+    border-style: outset;
+    background-color: rgb(190, 171, 226);
+}
+
+ul#menu {
+    border-style: double;
+    border-color: brown;
+}
+
+tr {
+    border-style: dotted;
+}
+
+a {
+    color: rgb(68, 68, 68);
+}
+
+article {
+    margin: 1%;
 }
