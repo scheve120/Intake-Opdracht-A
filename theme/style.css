@@ -13,7 +13,7 @@ header {
 }
 
 nav {
-    width:auto;
+    width: auto;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -22,14 +22,14 @@ nav {
     /* overflow:initial; */
 }
 
-img#nav-logo{
+img#nav-logo {
     position: relative;
     content: url("../content/logos/logo-1.png");
     width: 5rem;
     height: 5rem;
 }
 
-#banner{
+#banner {
     width: 100%;
     height: 100px;
     /* background-color: blue; */
@@ -48,34 +48,49 @@ main {
     /* margin: 10%; */
     background-color: rgb(228, 241, 241);
     border-style: dashed;
-    position:relative;
+    position: relative;
+}
+
+ul#nav {
+    margin-right: 2%;
 }
 
 ul#nav li {
     position: relative;
-    /* margin: 0 1px; */
     list-style: none;
     display: inline-block;
-    padding: 14px;
+    border-style: ridge;
+    border-radius: 15px 15px 2px 2px;
+    padding: 0.3em;
     font-size: 17px;
 }
 
 .article {
-    /* margin: 0 10%; */
-    /* margin-block: inherit; */
     position: inherit;
     background-color: aquamarine;
 }
 
-article {
-    margin-top: 10%;
+div.content {
+    width: 80%;
+    background-color: rgb(228, 241, 241);
+    border-style: dashed;
+    position: relative;
 }
 
-ul li a{
-    text-decoration: none; 
+article {
+    justify-content: center;
+    width: 50%;
+    margin-top: 2%;
+    border-style: solid;
+    border-color: rgba(0, 0, 255, .5);
+    border-radius: 10px 5px 10px 5px;
+}
+
+ul li a {
+    text-decoration: none;
     cursor: pointer;
     color: rgb(255, 255, 255);
-    }
+}
 
 a {
     color: rgb(68, 68, 68);
